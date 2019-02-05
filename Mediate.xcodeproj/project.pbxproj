@@ -83,9 +83,9 @@
 		572E05CF2207B52300A14F47 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				572E05C52207A95A00A14F47 /* Info.plist */,
 				572E05C02207A95A00A14F47 /* Assets.xcassets */,
 				572E05C22207A95A00A14F47 /* LaunchScreen.storyboard */,
-				572E05C52207A95A00A14F47 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -93,12 +93,12 @@
 		572E05D02207B53100A14F47 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				572E05E22208C6C800A14F47 /* ScrollingTab */,
-				572E05E12208BAF000A14F47 /* CameraFeed */,
 				572E05B92207A95800A14F47 /* AppDelegate.swift */,
 				572E05D52208475D00A14F47 /* Icon.swift */,
-				572E05D92208B64600A14F47 /* UIViewController+Containment.swift */,
 				572E05E72208CF0E00A14F47 /* UIView+Layout.swift */,
+				572E05D92208B64600A14F47 /* UIViewController+Containment.swift */,
+				572E05E12208BAF000A14F47 /* CameraFeed */,
+				572E05E22208C6C800A14F47 /* ScrollingTab */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
