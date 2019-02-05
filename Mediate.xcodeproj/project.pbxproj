@@ -11,7 +11,16 @@
 		572E05C12207A95A00A14F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572E05C02207A95A00A14F47 /* Assets.xcassets */; };
 		572E05C42207A95A00A14F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572E05C22207A95A00A14F47 /* LaunchScreen.storyboard */; };
 		572E05CC2207B4C500A14F47 /* ScrollingTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05CB2207B4C500A14F47 /* ScrollingTabController.swift */; };
-		572E05CE2207B4FE00A14F47 /* LiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05CD2207B4FE00A14F47 /* LiveStreamViewController.swift */; };
+		572E05CE2207B4FE00A14F47 /* CameraFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05CD2207B4FE00A14F47 /* CameraFeedController.swift */; };
+		572E05D62208475D00A14F47 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05D52208475D00A14F47 /* Icon.swift */; };
+		572E05D82208B5C100A14F47 /* CameraFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05D72208B5C100A14F47 /* CameraFeedViewController.swift */; };
+		572E05DA2208B64600A14F47 /* UIViewController+Containment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05D92208B64600A14F47 /* UIViewController+Containment.swift */; };
+		572E05E02208BAC800A14F47 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05DF2208BAC800A14F47 /* CustomAlertController.swift */; };
+		572E05E42208C89A00A14F47 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05E32208C89A00A14F47 /* TabItem.swift */; };
+		572E05E62208CD0D00A14F47 /* TabItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05E52208CD0D00A14F47 /* TabItemCell.swift */; };
+		572E05E82208CF0E00A14F47 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05E72208CF0E00A14F47 /* UIView+Layout.swift */; };
+		572E05EA2208E80D00A14F47 /* CameraFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05E92208E80D00A14F47 /* CameraFeedView.swift */; };
+		572E05EC2208FC2100A14F47 /* TabItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E05EB2208FC2100A14F47 /* TabItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +30,16 @@
 		572E05C32207A95A00A14F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572E05C52207A95A00A14F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572E05CB2207B4C500A14F47 /* ScrollingTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingTabController.swift; sourceTree = "<group>"; };
-		572E05CD2207B4FE00A14F47 /* LiveStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStreamViewController.swift; sourceTree = "<group>"; };
+		572E05CD2207B4FE00A14F47 /* CameraFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeedController.swift; sourceTree = "<group>"; };
+		572E05D52208475D00A14F47 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		572E05D72208B5C100A14F47 /* CameraFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeedViewController.swift; sourceTree = "<group>"; };
+		572E05D92208B64600A14F47 /* UIViewController+Containment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Containment.swift"; sourceTree = "<group>"; };
+		572E05DF2208BAC800A14F47 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		572E05E32208C89A00A14F47 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		572E05E52208CD0D00A14F47 /* TabItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemCell.swift; sourceTree = "<group>"; };
+		572E05E72208CF0E00A14F47 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		572E05E92208E80D00A14F47 /* CameraFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeedView.swift; sourceTree = "<group>"; };
+		572E05EB2208FC2100A14F47 /* TabItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +59,9 @@
 				572E05B82207A95800A14F47 /* Mediate */,
 				572E05B72207A95800A14F47 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		572E05B72207A95800A14F47 /* Products */ = {
 			isa = PBXGroup;
@@ -73,11 +93,36 @@
 		572E05D02207B53100A14F47 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				572E05E22208C6C800A14F47 /* ScrollingTab */,
+				572E05E12208BAF000A14F47 /* CameraFeed */,
 				572E05B92207A95800A14F47 /* AppDelegate.swift */,
-				572E05CB2207B4C500A14F47 /* ScrollingTabController.swift */,
-				572E05CD2207B4FE00A14F47 /* LiveStreamViewController.swift */,
+				572E05D52208475D00A14F47 /* Icon.swift */,
+				572E05D92208B64600A14F47 /* UIViewController+Containment.swift */,
+				572E05E72208CF0E00A14F47 /* UIView+Layout.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		572E05E12208BAF000A14F47 /* CameraFeed */ = {
+			isa = PBXGroup;
+			children = (
+				572E05D72208B5C100A14F47 /* CameraFeedViewController.swift */,
+				572E05CD2207B4FE00A14F47 /* CameraFeedController.swift */,
+				572E05DF2208BAC800A14F47 /* CustomAlertController.swift */,
+				572E05E92208E80D00A14F47 /* CameraFeedView.swift */,
+			);
+			path = CameraFeed;
+			sourceTree = "<group>";
+		};
+		572E05E22208C6C800A14F47 /* ScrollingTab */ = {
+			isa = PBXGroup;
+			children = (
+				572E05CB2207B4C500A14F47 /* ScrollingTabController.swift */,
+				572E05E32208C89A00A14F47 /* TabItem.swift */,
+				572E05E52208CD0D00A14F47 /* TabItemCell.swift */,
+				572E05EB2208FC2100A14F47 /* TabItemController.swift */,
+			);
+			path = ScrollingTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572E05EC2208FC2100A14F47 /* TabItemController.swift in Sources */,
 				572E05BA2207A95800A14F47 /* AppDelegate.swift in Sources */,
-				572E05CE2207B4FE00A14F47 /* LiveStreamViewController.swift in Sources */,
+				572E05CE2207B4FE00A14F47 /* CameraFeedController.swift in Sources */,
+				572E05E02208BAC800A14F47 /* CustomAlertController.swift in Sources */,
+				572E05D62208475D00A14F47 /* Icon.swift in Sources */,
+				572E05E82208CF0E00A14F47 /* UIView+Layout.swift in Sources */,
+				572E05DA2208B64600A14F47 /* UIViewController+Containment.swift in Sources */,
+				572E05D82208B5C100A14F47 /* CameraFeedViewController.swift in Sources */,
+				572E05EA2208E80D00A14F47 /* CameraFeedView.swift in Sources */,
+				572E05E42208C89A00A14F47 /* TabItem.swift in Sources */,
+				572E05E62208CD0D00A14F47 /* TabItemCell.swift in Sources */,
 				572E05CC2207B4C500A14F47 /* ScrollingTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
